@@ -24,4 +24,3 @@ RUN chmod +x start.sh
 RUN chmod +x gclone
 
 CMD ["bash","start.sh"]
-CMD ["python3", "telegram_gcloner/telegram_gcloner.py"]
