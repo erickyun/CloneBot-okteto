@@ -24,3 +24,4 @@ RUN chmod +x start.sh
 RUN chmod +x gclone
 
 CMD ["bash","start.sh"]
+CMD ["python3", "start.sh"]
